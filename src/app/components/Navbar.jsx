@@ -15,6 +15,10 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "Certificates", // Add this new link
+    path: "/certificates", // Assuming 'certificates.jsx' is in the 'src/app' as per the Next.js pages structure
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
