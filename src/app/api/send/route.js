@@ -1,28 +1,29 @@
-import { NextResponse } from "next/server";
-import { Resend } from "resend";
+// pages/api/send.js
+import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL;
+const targetEmail = 'mgakshith@gmail.com';
 
-export async function POST(req, res) {
-  const { email, subject, message } = await req.json();
-  console.log(email, subject, message);
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    // Return 405 if not a POST request
+    res.status(405).json({ error: 'Method Not Allowed' });
+    return;
+  }
+
+  const { email, subject, message } = req.body;
+
   try {
-    const data = await resend.emails.send({
-      from: fromEmail,
-      to: [fromEmail, email],
-      subject: subject,
-      react: (
-        <>
-          <h1>{subject}</h1>
-          <p>Thank you for contacting us!</p>
-          <p>New message submitted:</p>
-          <p>{message}</p>
-        </>
-      ),
-    });
-    return NextResponse.json(data);
+    // Simulate sending email
+    console.log('Sending email to:', targetEmail);
+    console.log('From:', email);
+    console.log('Subject:', subject);
+    console.log('Message:', message);
+
+    // Simulate email sending success
+    res.status(200).json({ success: true });
   } catch (error) {
-    return NextResponse.json({ error });
+    console.error('Error sending email:', error);
+    res.status(500).json({ error: 'Failed to send email. Please try again later.' });
   }
 }

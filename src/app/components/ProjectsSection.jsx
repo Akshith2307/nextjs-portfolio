@@ -10,8 +10,8 @@ const projectsData = [
     id: 1,
     title: "Threat Detection System",
     description: "A system designed to detect threats.",
-    role: "Data Scientist",
-    image: "/images/projects/1.png", // Update or ensure correct image paths
+    role: "Data Engineer",
+    image: "/images/projects/Threat.webp", // Update or ensure correct image paths
     tag: ["All", "Machine Learning"],
     gitUrl: "https://github.com/Akshith2307/Threat-Detection-System",
     previewUrl: "https://example.com/preview1", // Replace with actual preview link if available
@@ -20,8 +20,8 @@ const projectsData = [
     id: 2,
     title: "Bank Fraud Detection",
     description: "Application to detect bank frauds.",
-    role: "Data Scientist",
-    image: "/images/projects/2.png",
+    role: "Data Analyst | Project Manager",
+    image: "/images/projects/Bank.webp",
     tag: ["All", "Machine Learning"],
     gitUrl: "https://github.com/Akshith2307/Bank-Fraud-Detection-",
     previewUrl: "https://example.com/preview2",
@@ -30,8 +30,8 @@ const projectsData = [
     id: 3,
     title: "Cyber Bullying Detection",
     description: "Identifying cyber bullying patterns.",
-    role: "Data Scientist",
-    image: "/images/projects/3.png",
+    role: "Cybersecurity Analyst",
+    image: "/images/projects/Cyber.webp",
     tag: ["All", "Machine Learning"],
     gitUrl: "https://github.com/Akshith2307/Cyber-Bullying-Detection",
     previewUrl: "https://example.com/preview3",
@@ -40,8 +40,8 @@ const projectsData = [
     id: 4,
     title: "Obstacle Avoidance Using IOT",
     description: "IOT solution for obstacle avoidance.",
-    role: "Data Scientist",
-    image: "/images/projects/4.png",
+    role: "Machine Learning Engineer",
+    image: "/images/projects/IOT.webp",
     tag: ["All", "Machine Learning"],
     gitUrl: "https://github.com/Akshith2307/Obstacle-Avoidance-Using-IOT",
     previewUrl: "https://example.com/preview4",
@@ -50,8 +50,8 @@ const projectsData = [
     id: 5,
     title: "We Go Jim",
     description: "App for gym enthusiasts.",
-    role: "Data Scientist",
-    image: "/images/projects/5.png",
+    role: "UI/UX Designer & Frontend Developer",
+    image: "/images/projects/GYm.webp",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Akshith2307/We-Go-Jim",
     previewUrl: "https://example.com/preview5",
@@ -60,8 +60,8 @@ const projectsData = [
     id: 6,
     title: "Spotify Dashboard",
     description: "Dashboard for Spotify analytics.",
-    role: "Data Scientist",
-    image: "/images/projects/6.png",
+    role: "Data Analyst",
+    image: "/images/projects/Spotify.webp",
     tag: ["All", "Analytics"],
     gitUrl: "https://github.com/Akshith2307/Spotify-Dashboard",
     previewUrl: "https://example.com/preview6",
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">MY PROJECTS</h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag onClick={() => handleTagChange("All")} name="All" isSelected={tag === "All"} />
         <ProjectTag onClick={() => handleTagChange("Machine Learning")} name="Machine Learning" isSelected={tag === "Machine Learning"} />
