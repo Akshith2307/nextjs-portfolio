@@ -290,9 +290,9 @@
       justifyContent: side === 'left' ? 'flex-start' : 'flex-end',
       alignItems: 'center',
       marginBottom: '40px',
-      marginLeft: side === 'left' ? '-190px' : '0', // Shift the left box a bit more to the left
+      marginLeft: side === 'left' ? '0px' : '0', // Shift the left box a bit more to the left
       // marginRight: side === 'right' ? '0px' : '90px', // Shift the right box a bit more to the right
-      marginRight: '-190px',
+      marginRight: '0px',
     });
 
     const entryContentStyle = {
@@ -327,12 +327,12 @@
       position: 'absolute',
       left: '50.18%',
       transform: 'translate(-50%, -50%)',
-      background: 'transparent'
+      background: 'black'
     };
 
     const imageStyle = {
-      width: '850px',
-      height: '500px',
+      width: '500px',
+      height: '350px',
       borderRadius: '10%',
       marginBottom: '10px',
     };
