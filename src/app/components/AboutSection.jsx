@@ -11,7 +11,7 @@ const AboutMe = () => (
       <div>
         <h2 className="text-4xl font-bold mb-4" style={{ color: '#074368' }}>About Me</h2>
         <p className="text-lg" style={{ color: 'white' }}>
-        🌟 Hey! I'm Gnan Akshith Moyya, your go-to data whiz, and webdev guru. From crunching numbers to crafting algorithms that predict the future, I’m all about turning complex data puzzles into sleek, smart solutions. Whether I’m managing products that dazzle, or developing web apps that connect and inspire, I blend tech expertise with strategic vision to create digital magic. 🚀🤖✨
+        🌟 Hey! I{'\''}m Gnan Akshith Moyya, your go-to data whiz, and webdev guru. From crunching numbers to crafting algorithms that predict the future, I’m all about turning complex data puzzles into sleek, smart solutions. Whether I’m managing products that dazzle, or developing web apps that connect and inspire, I blend tech expertise with strategic vision to create digital magic. 🚀🤖✨
         </p>
       </div>
     </div>
