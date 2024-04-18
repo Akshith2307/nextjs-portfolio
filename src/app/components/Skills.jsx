@@ -138,8 +138,10 @@ import {
   faHtml5, faCss3, faLinux, faWindows, faGithub, faSalesforce,
   faBootstrap, faJira, faGoogle, faMicrosoft, faDatabase,
   faAndroid, faApple, faCss3Alt, faNodeJs, faRProject, faJs,
-  faCube // This replaces faUnity
+   // This replaces faUnity
+  
 } from '@fortawesome/free-brands-svg-icons';
+
 import { faServer } from '@fortawesome/free-solid-svg-icons';
 
 const iconStyles = {
@@ -169,7 +171,7 @@ const Skills = () => {
         { name: "React", icon: faReact },
         { name: "Node.js", icon: faNodeJs },
         { name: "Next.js", icon: faNodeJs },
-        { name: "Three.js", icon: faCube }, // Using faCube to replace faUnity
+        // { name: "Three.js", icon: faCube }, // Using faCube to replace faUnity
       ],
     },
     {
