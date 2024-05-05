@@ -153,13 +153,13 @@ const HeroSection = () => {
               sequence={[
                 "Gnan Akshith",
                 1000,
-                "Insight Architect",
+                "an Insight Architect",
                 1000,
-                "Innovation Maestro",
+                "an Innovation Maestro",
                 1000,
-                "AI Trailblazer",
+                "an AI Trailblazer",
                 1000,
-                "Digital Craftsman",
+                "a Digital Craftsman",
                 1000,
               ]}
               wrapper="span"

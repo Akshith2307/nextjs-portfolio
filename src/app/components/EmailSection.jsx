@@ -45,6 +45,7 @@ const EmailSection = () => {
             type="text"
             id="email"
             value="mgakshith@gmail.com"
+            
             readOnly
             className="bg-[#18191E] border border-[#074368] text-gray-100 text-sm rounded-lg block w-full p-2.5"
           />
@@ -55,3 +56,4 @@ const EmailSection = () => {
 };
 
 export default EmailSection;
+

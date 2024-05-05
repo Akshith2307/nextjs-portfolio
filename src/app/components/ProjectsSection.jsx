@@ -51,7 +51,7 @@ const projectsData = [
     title: "We Go Jim",
     description: "App for gym enthusiasts.",
     role: "UI/UX Designer & Frontend Developer",
-    image: "/images/projects/GYm.webp",
+    image: "/images/projects/GYM.webp",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Akshith2307/We-Go-Jim",
     previewUrl: "https://example.com/preview5",

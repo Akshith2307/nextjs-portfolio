@@ -16,6 +16,18 @@ const certificatesData = [
     imageUrl: "/images/Practioner.png", // Correct image path from Credly
     link: "https://www.credly.com/badges/a473a191-d9a7-44ae-b424-0e69aacd9090/public_url",
   },
+  {
+    id: 3,
+    name: "IBM Enterprise Design Thinking - Co-creator",
+    imageUrl: "/images/Co-creater.png", // Correct image path from Credly
+    link: "https://www.credly.com/badges/2f999884-9e4f-4824-b5f9-c5f705c06271/public_url"
+  },
+  {
+    id: 4,
+    name: "AWS Academy Graduate - AWS Academy Machine Learning Foundations",
+    imageUrl: "/images/AWS.png", // Correct image path from Credly
+    link: "https://www.credly.com/badges/f0a456a5-039a-4c08-a910-87e61b83d07c"
+  },
   // ... other certificates
 ];
 
